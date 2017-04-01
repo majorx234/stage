@@ -9,6 +9,7 @@ SET( APIVERSION ${V_MAJOR}.${V_MINOR} )
 
 # minimum version of Player to build the plugin
 SET( MIN_PLAYER 2.1.0 )
+SET(ROSBUILD "false" CACHE BOOL "build in ROS environment")
 
 OPTION (BUILD_PLAYER_PLUGIN "Build Player plugin" ON)
 OPTION (BUILD_LSPTEST "Build Player plugin tests" OFF)
